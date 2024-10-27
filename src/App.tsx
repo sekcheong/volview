@@ -1,4 +1,5 @@
-import Example from './Example'
+//import Example from './Example'
+import Vtkdemo from './VtkDemo';
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
       <button type="button" className="btn btn-primary">
         Notifications <span className="badge text-bg-secondary">4</span>
       </button>            
-      <Example/>
+      <Vtkdemo/>
     </div>    
   );
 }
